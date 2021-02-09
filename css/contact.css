@@ -1,0 +1,81 @@
+h2{
+    font-size: 30px;
+    padding: 20px;
+}
+#contact{
+    padding: 20px;
+	height: 100%;
+	overflow: auto;
+    box-shadow: 0px 0px 10px 2px rgb(94, 100, 110);
+}
+#addresse{
+	margin: 20px 10px;
+}
+#addresse p{
+    padding: 10px;
+}
+#addresse a{
+	color: #0c89be;
+}
+#addresse a:hover{
+	text-decoration: underline;
+}
+#contact form{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#contact form div{
+	display: flex;
+	flex-direction: column;
+	padding:10px;
+	align-content: center;
+}
+#contact form div label{
+	font-size: 17px;
+}
+#contact form div input{
+	font-size: 18px;
+	margin: 5px;
+	padding: 5px;
+	width: auto;
+	background-color: #E8EDF0;
+	border: 2px solid #DCDCDC;
+	border-radius: 5px;
+}
+#contact form div input:hover{
+	border-color: #085A7E;
+	transition: 0.3s;
+}
+#contact form div input[type="submit"]{
+	width: 5em;
+	font-size: 20px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	background-color: #d8e2f1;
+	color: #222;
+}
+#contact form div input[type="submit"]:hover{
+	background-color: #111;
+	color: #fff;
+}
+#contact form div textarea{
+	padding: 20px;
+	background-color:#E8EDF0;
+	border: 2px solid #DCDCDC;
+	outline: none;
+	color: #222;
+	border-radius: 5px;
+	font-size: 17px;
+}
+#contact form div textarea:hover{
+	border-color: #085A7E;
+	transition: 0.3s;
+}
+iframe{
+	max-width: 100%;
+}

@@ -1,0 +1,64 @@
+
+.taille{
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 350px;
+    padding: 30px;
+    height: 100%;
+}
+
+.tailleMoyen{
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    height: auto;
+}
+.actu{
+    width: 35%;
+    padding: 15px;
+    margin: 10px;
+    height: auto;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    margin: 20px;
+    max-width: 100%;
+    animation: papillon 15s linear infinite 5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@keyframes papillon{
+    0%, 33.54%, 100%{
+        background-image: url('../img/administration.jpg');
+    }
+    36.18%, 53.72%{
+        background-image: url('../img/hauteur.jpg');
+
+    }
+    56.35%, 73.89%{
+        background-image: url('../img/ala.jpg');
+
+    }
+    76.53%, 97.07%{
+        background-image: url('../img/ylang.jpg');
+    }
+}
+
+.hist{
+    border-top: 1px solid #121212;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.historique{
+    padding: 10px ;
+    text-align: left;
+}
